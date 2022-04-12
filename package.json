@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-jq",
+  "version": "1.0.0",
+  "description": "A TreeSitter parser for JQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/antimike/tree-sitter-jq.git"
+	},
+  "keywords": [
+    "jq",
+    "treesitter"
+  ],
+  "author": "Michael Haynes",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.6"
+  }
+}
